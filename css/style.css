@@ -15,17 +15,6 @@ body { font-family: sans-serif; line-height:1.5; color: #fffcfc ; background: #2
   display:flex; justify-content:right; background:#f8f9fa; align-items:center; padding: 10px 14px 8px;
 }
 
-.sub-header__row:after {
-    background-color: grey;
-    content: '';
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-    z-index: -1;
-}
 
 
 .sub-header__row a{ text-decoration:none; color:#333; background: #f8f9fa; }
